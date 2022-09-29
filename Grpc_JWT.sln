@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.32901.82
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ServicioGrpcJWT", "ServicioGrpcJWT\ServicioGrpcJWT.csproj", "{36BD545F-228C-40FB-865B-E2B171D4C53C}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "protos", "protos", "{8A43F0BC-728E-4345-BEF0-9BA28FE79473}"
+	ProjectSection(SolutionItems) = preProject
+		login.proto = login.proto
+		pais.proto = pais.proto
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{36BD545F-228C-40FB-865B-E2B171D4C53C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{36BD545F-228C-40FB-865B-E2B171D4C53C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{36BD545F-228C-40FB-865B-E2B171D4C53C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{36BD545F-228C-40FB-865B-E2B171D4C53C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {B1402C8A-82E1-44C4-883F-65DB2A5ABAEB}
+	EndGlobalSection
+EndGlobal

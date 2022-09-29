@@ -1,0 +1,16 @@
+syntax = "proto3";
+import "google/protobuf/empty.proto";;
+
+option csharp_namespace = "PaisServicio";
+
+package paises;
+
+service Paises {
+	rpc ObtenerPaises (google.protobuf.Empty) returns (stream Pais);
+}
+
+message Pais{
+	string Id = 1;
+	string Nombre = 2;
+	int32 Habitantes = 3;
+}

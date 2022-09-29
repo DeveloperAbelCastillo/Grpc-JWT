@@ -1,0 +1,18 @@
+syntax = "proto3";
+
+option csharp_namespace = "LoginServicio";
+
+package Login;
+
+service Login {
+	rpc IniciarSesion (UsuarioLogin) returns (Token);
+}
+
+message UsuarioLogin {
+	string Usuario = 1;
+	string Password = 2;
+}
+
+message Token {
+	string Token = 1;
+}
